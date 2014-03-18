@@ -7,7 +7,7 @@ cv-generator
 
 Also (thanks to Travis):
 
-1. http://loki2302.me/cv-generator/cv.html
-2. http://loki2302.me/cv-generator/cv.pdf
+1. http://millasa.github.io/cv-generator/cv.html
+2. http://millasa.github.io/cv-generator/cv.pdf
 
-[![Build Status](https://travis-ci.org/loki2302/cv-generator.png?branch=master)](https://travis-ci.org/loki2302/cv-generator)
+[![Build Status](https://travis-ci.org/millasa/cv-generator.png?branch=master)](https://travis-ci.org/millasa/cv-generator)
