@@ -7,7 +7,7 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 
 .personal .name {
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 22pt;
 	padding: 0;
 	margin: 0;
