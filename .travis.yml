@@ -25,4 +25,4 @@ after_script:
   - git push origin gh-pages
 env:
   global:
-    secure: ZawwJCG3uJ+D5BhQbSvNltSC5n1znFKaWtx0mJHSTTPd5lVu2e2wNH4nJs7L4IHbmhUoh5ielOvgG8tV+zh11F9s0/bfBak3NcuNpNbCZxVLeAIfD/n07KGYWaQXAz+QMDJ
+  - secure: AyJTjzNPR7ZpbY6smHoblwBAR/b/4xi+2FdbB3M9fFg3cg9At2bNnsdMHNrLM5aoKLR4h+I2np5EN+3nhUAiiaYTaaz6NkuG0PMuRhe2h2r8yikfXruKSUzNDOcbZl5k3ae64zpD7DenUavr5I0m7fE57Zh4NTLed4ex1MfRwaI=
