@@ -7,10 +7,10 @@ after_script:
   - mv cv.css _cv.css
   - mv cv.pdf _cv.pdf
   - git config credential.helper "store --file=.git/credentials"
-  - git config --global user.email "loki2302@loki2302.me"
-  - git config --global user.name "loki2302"
+  - git config --global user.email "melena.art@gmail.com"
+  - git config --global user.name "millasa"
   - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
-  - git remote set-url origin https://github.com/loki2302/cv-generator.git
+  - git remote set-url origin https://github.com/millasa/cv-generator.git
   - git remote set-branches --add origin gh-pages  
   - git fetch
   - git checkout gh-pages
@@ -25,4 +25,4 @@ after_script:
   - git push origin gh-pages
 env:
   global:
-    secure: GECSj+I7n35AEh2B+YvTVx+76ugHoOvO1mVnE2RvJBxCDwwjgyY5DmIzyvO4dpqHZTVxThk9G5g+xvzK70+g0ymGydNJIvj/8YKCJukYzmFHvWhMwkLRKtn/b1ye1M5re6Oz2n4jE7WRmUim0lC/gKP2NK5VC3MuliFTYXEowdY=
+    secure: ZawwJCG3uJ+D5BhQbSvNltSC5n1znFKaWtx0mJHSTTPd5lVu2e2wNH4nJs7L4IHbmhUoh5ielOvgG8tV+zh11F9s0/bfBak3NcuNpNbCZxVLeAIfD/n07KGYWaQXAz+QMDJ
