@@ -27,6 +27,10 @@
 			<i class="fa fa-phone-square icon"></i> {{ contacts.phone }}<br>
 			{% endif %}
 
+			{% if contacts.skype %}
+			<i class="fa fa-skype icon"></i> {{ contacts.skype }}<br>
+			{% endif %}
+
 			{% if contacts.github %}
 			<i class="fa fa-github-square icon"></i> <a href="{{ contacts.github }}">{{ contacts.github }}</a><br>
 			{% endif %}
@@ -39,6 +43,14 @@
 			{% endfor %}				
 			</ul>
 			{{ render_tags(keywords) }}
+		</div>
+		<div class="section education">
+			<h2>Education</h2>
+			<ul>
+			{% for education in educations %}
+				<li>{{ education }}</li>
+			{% endfor %}				
+			</ul>
 		</div>
 		<div class="section projects">
 			<h2>Projects</h2>
