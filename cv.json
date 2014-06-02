@@ -22,7 +22,7 @@
 	"projects": [
 		{
 			"name": "Restaurant management system",
-			"timeframe": { "from": "December 2012", "to": "Present" },
+			"timeframe": { "from": "December 2012", "to": "May 2014" },
 			"description": "Comprehensive restaurant management system used by both staff and customers: restaurant staff uses it to manage the floor, reservations and table availability; customers use it to get information about restaurants and make online reservations.",
 			"responsibilities": [
 				"Distributed team management",
